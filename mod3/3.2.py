@@ -5,4 +5,4 @@ Säde= input("Anna säde: ")
 
 Pinta_ala= (float(Säde) **2) * math.pi
 
-print("Konversion tulos: " + str(Pinta_ala))
+print("Pinta_ala: " + str(Pinta_ala))
