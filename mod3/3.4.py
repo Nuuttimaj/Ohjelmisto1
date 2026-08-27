@@ -6,8 +6,10 @@ ensimmäinen= input("Anna Ensimmäinen Luku: ")
 toinen= input("Anna Toinen Luku: ")
 kolmas= input("Anna Kolmas Luku: ")
 
-summa= (float(ensimmäinen)) + (float(toinen)) + (float(toinen))
-tulo= (float(ensimmäinen)) * (float(toinen)) * (float(toinen))
+summa= (float(ensimmäinen)) + (float(toinen)) + (float(kolmas))
+tulo= (float(ensimmäinen)) * (float(toinen)) * (float(kolmas))
+keskiarvo= (float(summa)) / 3
 
-print("Pinta_ala: " + str(pinta_ala))
-print("Piiri: " + str(piiri))
+print("Summa: " + str(summa))
+print("Tulo: " + str(tulo))
+print("Keskiarvo: " + str(keskiarvo))
