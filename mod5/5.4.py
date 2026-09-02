@@ -4,17 +4,16 @@
 #Huomaa, että tietokone ei saa vaihtaa lukuaan arvauskertojen välissä.
 
 import random
-luku = str(random.randint(1,10))
+luku = int(random.randint(1,10))
 
-arvaus= input("Anna luku: ")
+arvaus= int(input("Anna luku: "))
 
 while arvaus != luku:
-    if arvaus < luku:
+    if arvaus > luku:
         print("Liian suuri arvaus")
-        if arvaus == luku:
-            print("Oikea arvaus")
-    elif arvaus > luku: 
+        arvaus=int(input("Anna uusi luku: "))
+    elif arvaus < luku: 
         print("Liian pieni arvaus")
-        if arvaus == luku:
-            print("Oikea arvaus")
+        arvaus=int(input("Anna uusi luku: "))
+    else: print("Luku on oikein")
 else: print("Luku on oikein")
