@@ -6,9 +6,9 @@ user_age= float(input("Anna Ikäsi: "))
 
 
 # Iän tarkistus
-while user_age < 12:
+if user_age < 12:
     print("Alitat ikärajan")
-    break
+
 
 
 while user_age > 12:

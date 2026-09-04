@@ -1,8 +1,15 @@
 #Kirjoita ohjelma, joka kysyy käyttäjältä lukuja siihen saakka, kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi. 
 #Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.
 
-komento = str(input("Anna luku: "))
-while komento != "":
-    print(komento)
-    komento= str(input("Anna luku: "))
-print("Toiminto lopetettu")
+luvut=[]
+
+while True:
+    komento=input("Anna luku: ")
+    if komento == "":
+            break
+    luvut.append(komento)
+
+luvut.sort()
+
+print(luvut[0])
+print(luvut[-1])
