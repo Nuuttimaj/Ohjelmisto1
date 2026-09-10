@@ -13,6 +13,7 @@ while yritykset< 5:
     if username == "python":
         if password == "rules":
             print("Tervetuloa!")
+            break
     yritykset=yritykset + 1
     input("Anna käyttäjänimesi: ")
     input("Anna salasanasi: ")
