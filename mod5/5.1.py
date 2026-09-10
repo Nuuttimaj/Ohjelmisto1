@@ -2,6 +2,6 @@
 
 luku = 3
 while luku < 1000:
-    print(luku)
     if luku % 3 ==0:
-        luku = luku +3
+        print(luku)
+    luku = luku +3
