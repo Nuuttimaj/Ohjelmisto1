@@ -21,3 +21,7 @@ Tein tehtävät 1, 2, 3, 4, 5, x
 ## Moduuli 6
 
 Tein tehtävät 1, 2, x, 4
+
+## Moduuli 7
+
+Tein tehtävät 1, 2, 3, x, x, x
