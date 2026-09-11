@@ -14,6 +14,6 @@ while heitot < lukumäärä:
     luvut.append(luku)
     heitot= heitot + 1
 
-for luku in luvut:
-    print (luku)
+for x in luvut:
+    print (x)
     
