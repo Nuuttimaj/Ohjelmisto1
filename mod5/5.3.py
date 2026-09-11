@@ -5,9 +5,9 @@ luvut=[]
 
 while True:
     komento=input("Anna luku: ")
+    luvut.append(komento)
     if komento == "":
             break
-    luvut.append(komento)
 
 luvut.sort()
 
