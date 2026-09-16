@@ -3,13 +3,16 @@
 
 luvut=[]
 
+komento=(input("Anna luku: "))
+luvut.append(komento)
+
 while True:
-    komento=input("Anna luku: ")
+    if komento =="":
+        break
+    komento=(input("Anna luku: "))
     luvut.append(komento)
-    if komento == "":
-            break
 
 luvut.sort()
 
-print(luvut[0])
+print(luvut[1])
 print(luvut[-1])
