@@ -25,3 +25,11 @@ Tein tehtävät 1, 2, x, 4
 ## Moduuli 7
 
 Tein tehtävät 1, 2, 3, x, 5, 6
+
+## Moduuli 8
+
+Tein tehtävät x, x, x
+
+## Moduuli 9
+
+Tein tehtävät 1, x, x, x

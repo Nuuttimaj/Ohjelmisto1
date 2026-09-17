@@ -11,6 +11,5 @@ while luku != "":
 
 luvut.sort(reverse=True)
 
-for luku in luvut:
-    print(luku)
+print(luvut[0:5])
 
