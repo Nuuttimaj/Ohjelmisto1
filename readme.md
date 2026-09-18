@@ -28,8 +28,16 @@ Tein tehtävät 1, 2, 3, x, 5, 6
 
 ## Moduuli 8
 
-Tein tehtävät x, x, x
+Tein tehtävät 1, 2, 3
 
 ## Moduuli 9
 
 Tein tehtävät 1, x, x, x
+
+## Moduuli 10
+
+Tein tehtävät x, x, x, x
+
+## Moduuli 11
+
+Tein tehtävät x, x
