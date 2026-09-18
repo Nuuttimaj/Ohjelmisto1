@@ -12,13 +12,23 @@ class Auto:
         self.huippunopeus = huippunopeus
         self.nopeus = nopeus
         self.matka = matka
+        
+
+    def kiihdytä(self, muutos):
+        muutos > 0
+        self.nopeus = self.nopeus + muutos
+        if float(self.nopeus) > float(self.huippunopeus):
+            self.nopeus = self.huippunopeus
+        return muutos
 
 
+auto1=Auto("ABC-123", 142)
+
+kiihdytys1 = auto1.kiihdytä(+30)
+kiihdytys2 = auto1.kiihdytä(+70)
+kiihdytys3 = auto1.kiihdytä(+50)
 
 
-auto1=Auto("ABC-123", "142km/h")
-
-
-print(f"Rekisteritunnus: {auto1.rekisteritunnus} Huippunopeus: {auto1.huippunopeus} Nopeus: {auto1.nopeus} Matka: {auto1.matka}")
-
-
+print(f"Nopeus: {auto1.nopeus}")
+jarrutus = auto1.kiihdytä(-200)
+print(f"Nopeus: {auto1.nopeus}")
