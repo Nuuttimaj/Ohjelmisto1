@@ -6,6 +6,18 @@
 
 luku=int(input("Anna luku: "))
 
-if luku >1: alkuluku=True
+if luku < 2:
+    print("Luku ei ole alkuluku.")
 
+else:
+    on_alkuluku = True
 
+    for x in range(2, luku):
+        if luku % x == 0:
+            on_alkuluku = False
+            break  
+
+if on_alkuluku:
+    print("Luku on alkuluku.")
+else:
+    print("Luku ei ole alkuluku.")
