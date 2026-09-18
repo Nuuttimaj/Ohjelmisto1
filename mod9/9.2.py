@@ -15,10 +15,11 @@ class Auto:
         
 
     def kiihdytä(self, muutos):
-        muutos > 0
         self.nopeus = self.nopeus + muutos
         if float(self.nopeus) > float(self.huippunopeus):
             self.nopeus = self.huippunopeus
+        if float(self.nopeus) < 0:
+                    self.nopeus = 0
         return muutos
 
 
