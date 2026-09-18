@@ -2,12 +2,18 @@
 #Kirjoita testausta varten pääohjelma, jossa luot listan, kutsut funktiota ja tulostat sen palauttaman summan.
 
 
-luvut=[1,2,3,4,5,6,7,8,9]
+lista=[1,2,3,4,5,6,7,8,9]
 
-def numerot(luvut):
-    sum(luvut)
-    return
+def f(lukut):
+    total = 0
+    for x in lukut:
+        total += x
+    return total
+
+
+print(f(lista))
 
 
 
-numerot(luvut)
+
+
