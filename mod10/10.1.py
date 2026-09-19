@@ -6,3 +6,35 @@
 # missä kerroksessa hissi sen jälkeen on. 
 # Testaa luokkaa siten, että teet pääohjelmassa hissin ja käsket sen siirtymään haluamaasi kerrokseen 
 # ja sen jälkeen takaisin alimpaan kerrokseen.
+
+
+
+class Hissi:
+    def __init__(self, kerros=0, alin_kerros=0, ylin_kerros=10):
+        self.kerros = kerros
+        self.alin_kerros = alin_kerros
+        self.ylin_kerros = ylin_kerros
+
+    def siirry_kerrokseen(self, kerros_nro):
+        if self.kerros < kerros_nro:
+            for x in range(kerros_nro - self.kerros):
+                self.kerros_ylös()
+        else:
+            for x in range(self.kerros, kerros_nro):
+                self.kerros_alas()
+
+    def kerros_ylös(self):
+        self.kerros += 1
+        print(self.kerros) 
+
+    def kerros_alas(self):
+        self.kerros -= 1
+        print(self.kerros)
+
+
+hissi1 = Hissi()
+
+hissi1.siirry_kerrokseen()
+print(hissi1.kerros)
+
+

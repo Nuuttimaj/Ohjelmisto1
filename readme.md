@@ -36,7 +36,7 @@ Tein tehtävät 1, 2, 3, 4
 
 ## Moduuli 10
 
-Tein tehtävät x, x, x, x
+Tein tehtävät 1, x, x, x
 
 ## Moduuli 11
 
