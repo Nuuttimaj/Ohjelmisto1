@@ -9,7 +9,9 @@ def inviadd():
     Inviadd=input("Mitä haluat lisätä:")
     inventaario.append(Inviadd)
 
-
+def tiedot():
+    print(f"Nimesi: {user_name}")
+    print(f"Ikäsi: {user_age}")
 
 
 
@@ -32,7 +34,7 @@ while user_age > 12:
     print(" ")
     print("Aloita peli kirjoittamalla: 1")
     print(" ")
-    print("XX: 2")
+    print("Tarkista tietosi: 2")
     print(" ")
     print("Tarkastele inventaariotasi: 3")       
     print(" ")
@@ -41,6 +43,8 @@ while user_age > 12:
     print("Shutdown: X")
     print(" ")
     vastaus= str(input("Mihin haluat edetä? "))
+    if vastaus == "2":
+        tiedot()
     if vastaus == "3":
         print("Inventaariosi:")
         invi()
