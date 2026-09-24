@@ -23,7 +23,7 @@ class Hissi:
 
     def kerros_ylös(self):
         self.kerros += 1
-        print(self.kerros) 
+        print(self.kerros)
 
     def kerros_alas(self):
         self.kerros -= 1
@@ -31,17 +31,22 @@ class Hissi:
 
 
 class Talo:
-    def __init__(self,talon_alin=0, talon_ylin=10, hissien_määrä=5):
+    def __init__(self, talon_alin=0, talon_ylin=10, hissien_määrä=5):
         self.talon_alin = talon_alin
         self.talon_ylin = talon_ylin
         self.hissien_määrä = hissien_määrä
 
-    def aja_hissiä(self, hissin_numero, kohdekerros):
-        
+        self.hissit = []
 
-hissit=[]
+        for x in range(hissien_määrä):
+            self.hissit.append(Hissi(talon_alin, talon_alin, talon_ylin))
 
-talo1 = Talo()
-for x in range(1,5):
-    hissit.append(Hissi[x])
-print (hissit)
+    def aja_hissia(self, hissin_numero, kohdekerros):
+        self.hissit[hissin_numero].siirry_kerrokseen(kohdekerros)
+
+
+talo1 = Talo(0, 10, 3)
+
+talo1.aja_hissia(0, 6)
+
+
