@@ -34,7 +34,7 @@ class Lehti(Julkaisu):
 
 
 
-#Luo pääohjelmassa julkaisut Aku Ankka (päätoimittaja Aki Hyyppä) ja Hytti n:o 6 (kirjailija Rosa Liksom, 200 sivua). 
+# Luo pääohjelmassa julkaisut Aku Ankka (päätoimittaja Aki Hyyppä) ja Hytti n:o 6 (kirjailija Rosa Liksom, 200 sivua). 
 # Tulosta molempien julkaisujen kaikki tiedot toteuttamiesi metodien avulla
 julkaisut=[]
 julkaisut.append(Lehti("Aku Ankka", "Aki Hyyppä"))

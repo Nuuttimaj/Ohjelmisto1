@@ -1,9 +1,9 @@
-import päävalikko
+import tiedot
 
-from päävalikko import inventaario
+inventaario=[1,2,3,4,5,6,]
 
-from päävalikko import user_name
-from päävalikko import user_age
+from tiedot import user_name
+from tiedot import user_age
 
 class Pelaaja_class:
     def __init__(self, nimi =user_name, ikä = user_age, sijainti=0, inventaario=inventaario):
