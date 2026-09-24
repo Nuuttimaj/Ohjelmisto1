@@ -40,4 +40,4 @@ Tein tehtävät 1, x, x, x
 
 ## Moduuli 11
 
-Tein tehtävät x, x
+Tein tehtävät 1, x
