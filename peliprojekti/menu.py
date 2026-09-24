@@ -1,6 +1,5 @@
 import time
 
-import pelaaja
 from pelaaja import user_name
 from pelaaja import user_age
 from pelaaja import inventaario
@@ -19,7 +18,7 @@ def tiedot():
     print(f"Ikäsi: {user_age}")
 
 
-def päävalikko():
+def menu():
         if user_age < 12:
             print("Alitat ikärajan")
             quit()
@@ -53,4 +52,4 @@ def päävalikko():
                 quit()
 
 #Tarvitaan, jotta päävalikko toimii
-päävalikko()
+menu()
