@@ -8,18 +8,21 @@ from pelaaja import user_name
 from pelaaja import user_age
 
 
-
-
-
-
 # Päävalikko
 päävalikko.päävalikko
-time.sleep(3)
+time.sleep(1)
 
-
-
-
-
-# Peli
+# Pause for dramatic effect
+print("Pause for dramatic effect")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
 print("pöö")
 
+
+#Peli
