@@ -17,4 +17,5 @@ while vastaus != "":
         nimet.add(vastaus)
 
 nimet.remove("")
-print (nimet)
+for x in nimet:
+    print(x)
