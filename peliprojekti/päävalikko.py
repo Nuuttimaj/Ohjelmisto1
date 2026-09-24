@@ -1,3 +1,4 @@
+import time
 inventaario=[1,2,3,4,5,6,]
 
 
@@ -20,7 +21,7 @@ def tiedot():
 #Nimen ja Iän kysyminen
 print("Pelaaja, anna nimesi ja ikäsi!")
 user_name= str(input("Anna Nimesi: "))
-user_age= float(input("Anna Ikäsi: "))
+user_age= int(input("Anna Ikäsi: "))
 
 # Iän tarkistus
 if user_age < 12:
@@ -29,30 +30,33 @@ if user_age < 12:
 
 #Päävalikko
 while user_age > 12:
-    print(" ")
-    print("Hei,"+user_name+"!")
-    print(" ")
-    print("Aloita peli kirjoittamalla: 1")
-    print(" ")
-    print("Tarkista tietosi: 2")
-    print(" ")
-    print("Tarkastele inventaariotasi: 3")       
-    print(" ")
-    print("Cheat Codes: 4")
-    print(" ")
-    print("Shutdown: X")
-    print(" ")
-    vastaus= str(input("Mihin haluat edetä? "))
-    if vastaus == "2":
+    time.sleep(1)
+    print(f'''
+    Hei,{user_name}!
+
+    Start   Tietosi   Inventaario   Cheat Codes   Shutdown
+    >
+    ''')
+    
+    time.sleep(0.5)
+    vastaus= str(input("Mihin haluat edetä? ")).lower()
+    if vastaus == "start":
         tiedot()
-    if vastaus == "3":
+    if vastaus == "tietosi":
+        time.sleep(0.5)
+        tiedot()
+    if vastaus == "inventaario":
+        time.sleep(0.5)
         print("Inventaariosi:")
+        time.sleep(0.5)
         invi()
-    if vastaus == "4":
+    if vastaus == "cheat codes":
+        time.sleep(0.5)
         inviadd()
-    if vastaus == "X":
-            print("Shutdown")
-            break
+    if vastaus == "shutdown":
+        time.sleep(1.5)
+        print("Shutdown")
+        break
 
 
 
