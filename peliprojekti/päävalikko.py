@@ -19,11 +19,10 @@ def tiedot():
     print(f"Ikäsi: {user_age}")
 
 
-
-
 def päävalikko():
         if user_age < 12:
             print("Alitat ikärajan")
+            quit()
         while user_age > 12:
             time.sleep(1)
             print(f'''
@@ -53,4 +52,5 @@ def päävalikko():
                 print("Shutdown")
                 quit()
 
+#Tarvitaan, jotta päävalikko toimii
 päävalikko()
