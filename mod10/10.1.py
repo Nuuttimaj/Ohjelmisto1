@@ -20,7 +20,7 @@ class Hissi:
             for x in range(kerros_nro - self.kerros):
                 self.kerros_ylös()
         else:
-            for x in range(self.kerros, kerros_nro):
+            for y in range(self.kerros - kerros_nro):
                 self.kerros_alas()
 
     def kerros_ylös(self):
@@ -34,7 +34,7 @@ class Hissi:
 
 hissi1 = Hissi()
 
-hissi1.siirry_kerrokseen()
+hissi1.siirry_kerrokseen(3)
 print(hissi1.kerros)
 
 
