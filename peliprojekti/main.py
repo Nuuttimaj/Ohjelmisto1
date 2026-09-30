@@ -3,13 +3,8 @@ import time
 #Main menu import
 import menu
 
-#Pelaaja tiedoston import
-from pelaaja import user_name
-from pelaaja import user_age
-
 
 # Main menu
-menu.menu
 time.sleep(1)
 
 # Pause for dramatic effect

@@ -38,7 +38,7 @@ autot =[]
 
 #Autot luodaan
 for x in range(1,11):
-    autot.append(Auto(f"ABC-{[x]}",random.randint (100,200)))
+    autot.append(Auto(f"ABC-{[x]}", random.randint (100,200)))
 
 
 
