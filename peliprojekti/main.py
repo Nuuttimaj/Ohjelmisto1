@@ -6,6 +6,7 @@ with open("/Users/nuuttimajoinen/Desktop/Koulu/Ohjelmisto 1/Python-harjoitukset/
 #Importit
 import time
 from pelaaja import user
+import os
 
 #Main menu
 import menu
@@ -20,25 +21,18 @@ print(".")
 time.sleep(1)
 print(".")
 time.sleep(1)
-print(".")
+os.system('say "Good morning"')
 time.sleep(1)
 print(".")
 time.sleep(1)
-print(f"Good morning {user.nimi}!")
-time.sleep(2)
 print(".")
+os.system('say "You have been sleeping for quite some time."')
 time.sleep(1)
-print(".")
+os.system('say "It is the year 2088"')
 time.sleep(1)
-print("You have been sleeping for quite some time.")
-time.sleep(2)
-print("It is the year 2088")
-time.sleep(3)
-print(f"You are now {user.ikä + 62} years old ")
-time.sleep(2)
-print("Due to the advancements made by The Organization, you are free to leave.")
+os.system('say "Due to the advancements made by The Organization, you are free to leave."')
 time.sleep(1)
-print("We thank you for your stay and wish you a joyful life.")
+os.system('say "We thank you for your stay and wish you a joyful life."')
 time.sleep(3)
 
 
