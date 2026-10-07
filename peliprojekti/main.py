@@ -1,7 +1,11 @@
+#Welcome
+with open("/Users/nuuttimajoinen/Desktop/Koulu/Ohjelmisto 1/Python-harjoitukset/peliprojekti/welcome.txt", "r") as tiedosto:
+    data = tiedosto.read()
+    print(data)
+
 #Importit
 import time
 from pelaaja import user
-
 
 #Main menu
 import menu
@@ -46,4 +50,11 @@ if act1_staircase == "":
     print(f"{user.nimi}: Shakey")
 print(f"{user.nimi}: What happened")
 
+#Terminal
+print("You sit down to gather your thoughts")
+print(f"{user.nimi}: What the hell has happened")
+print("Suddenly you see a computer")
+terminal_input=input("Do you want to boot the terminal")
+if terminal_input =="Yes":
+    import terminal
 
