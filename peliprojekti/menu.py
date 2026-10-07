@@ -1,8 +1,7 @@
 import time
 
-from pelaaja import user_name
-from pelaaja import user_age
 from pelaaja import inventaario
+from pelaaja import user
 
 
 #Funktiot
@@ -14,18 +13,19 @@ def inviadd():
     inventaario.append(Inviadd)
 
 def tiedot():
-    print(f"Nimesi: {user_name}")
-    print(f"Ikäsi: {user_age}")
+    print(f"Nimesi: {user.nimi}")
+    print(f"Ikäsi: {user.ikä}")
+    print(f"HP: {user.hp} ")
 
 
 def menu():
-        if user_age < 12:
+        if user.ikä < 12:
             print("Alitat ikärajan")
             quit()
-        while user_age > 12:
+        while user.ikä > 12:
             time.sleep(1)
             print(f'''
-        Hei,{user_name}!
+        Hei,{user.nimi}!
 
         Start   Tietosi   Inventaario   Cheat Codes   Shutdown
         >

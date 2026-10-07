@@ -7,13 +7,20 @@ inventaario=[1,2,3,4,5,6,]
 
 
 class Pelaaja_class:
-    def __init__(self, nimi =user_name, ikä = user_age, sijainti=0, inventaario=inventaario):
+    def __init__(self, nimi =user_name, ikä = user_age, hp=100):
         self.nimi = nimi
         self.ikä = ikä
-        self.sijainti = sijainti
-        self.inventaario = inventaario
-    
-user=Pelaaja_class
+        self.hp = hp
 
+    def hp_muutos(self, muutos):
+        if muutos > 0:
+            self.hp = self.hp - muutos
+        if muutos < 0:
+            self.hp = self.hp + muutos
+        return muutos
+
+
+
+user=Pelaaja_class(user_name, user_age)
 
 
