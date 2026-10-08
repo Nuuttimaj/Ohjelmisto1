@@ -61,7 +61,7 @@ while True:
 
         All hail The Organization 
         ''')
-        time.sleep(3)
+        time.sleep(5)
         print(f"{värit.ENDC}{user_name}: What plan?")
     if sf_input =="Exit":
         break
