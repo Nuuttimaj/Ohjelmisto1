@@ -2,6 +2,7 @@ import time
 
 from pelaaja import inventaario
 from pelaaja import user
+import save
 
 
 #Funktiot
@@ -27,7 +28,7 @@ def menu():
             print(f'''
         Hei,{user.nimi}!
 
-        Start   Tietosi   Inventaario   Cheat Codes   Shutdown
+        Start   Tietosi   Inventaario   Cheat Codes   Load   Shutdown
         >
         ''')
     
@@ -46,6 +47,12 @@ def menu():
             if vastaus == "cheat codes":
                 time.sleep(0.5)
                 inviadd()
+            if vastaus =="load":
+                tallennus_data = save.lataa()
+                user.nimi = tallennus_data["pelaaja"]
+                user.ikä = tallennus_data["ika"]
+                user.hp = tallennus_data["HP"]
+
             if vastaus == "shutdown":
                 time.sleep(1.5)
                 print("Shutdown")
@@ -53,3 +60,4 @@ def menu():
 
 #Tarvitaan, jotta päävalikko toimii
 menu()
+

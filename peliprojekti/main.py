@@ -3,10 +3,13 @@ with open("/Users/nuuttimajoinen/Desktop/Koulu/Ohjelmisto 1/Python-harjoitukset/
     data = tiedosto.read()
     print(data)
 
+
+
 #Importit
 import time
 from pelaaja import user
 import os
+
 
 #Main menu
 import menu

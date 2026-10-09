@@ -1,6 +1,7 @@
 import time
 from colours import värit
 from pelaaja import user_name
+import save
 
 
 time.sleep(2)
@@ -37,6 +38,7 @@ while True:
             Safe house 87
             > Personnel
             > Latest Log
+            > Save current stage
             > Exit
 
             Where do you wish to proceed
@@ -63,6 +65,9 @@ while True:
         ''')
         time.sleep(5)
         print(f"{värit.ENDC}{user_name}: What plan?")
+    if sf_input =="Save current stage":
+        save.tallenna()
+        print(f"{värit.ENDC}Saved")
     if sf_input =="Exit":
         break
 
