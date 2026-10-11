@@ -6,7 +6,7 @@
 
 **Pelin idea**
 
-Joku vague kriisi on tapahtunut, kestävän kehityksen mielessä ydinkriisi. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen. Kaikki onkin oikeasti valetta. The Organization on käynnistänyt suunnitelman, jonka tavoitteena on tuhota pelaaja, koska hänen uskotaan olevan maailman pelastus. The Organization ei siis oikeasti halua pelastaa maailmaa.
+Joku vague kriisi on tapahtunut, kestävän kehityksen mielessä ydinkriisi. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen. Tällä kertaa ilman ydinvoimaa. Kaikki onkin oikeasti valetta. The Organization on käynnistänyt suunnitelman, jonka tavoitteena on tuhota pelaaja, koska hänen uskotaan olevan maailman pelastus. The Organization ei siis oikeasti halua pelastaa maailmaa.
 
 
 
