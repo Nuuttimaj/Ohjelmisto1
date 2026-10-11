@@ -100,3 +100,6 @@ while True:
 #Act2
 
 
+
+#Final Terminal
+import final_terminal

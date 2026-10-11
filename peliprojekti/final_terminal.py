@@ -30,7 +30,7 @@ while True:
 
     if password == "root":
         break
-    print(f"{värit.ENDC}{user_name}: Maybe it's on the note I found")
+    print(f"{värit.ENDC}{user_name}: Maybe it's the root password")
 
 
 while True:
@@ -56,7 +56,7 @@ Good luck!
 ''')
 
 # Ajanotto aloitetaan
-time.sleep()
+time.sleep(1)
 start = time.time()
 
 
@@ -87,6 +87,9 @@ print(f"{värit.BOLD}{värit.OKGREEN}It took, {length: .2f}, seconds!")
 time.sleep(1)
 if length >60:
     print(f"{värit.BOLD}{värit.OKGREEN}Thank you for your collaboration, Good Bye!")
+    time.sleep(3)
+    print("We thank you for playing Safe House 87")
+    quit()
 if length <60:
     print(f"{värit.BOLD}{värit.OKGREEN}Thank you for your collaboration, have a nice afterlife")
 

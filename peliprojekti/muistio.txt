@@ -1,0 +1,7 @@
+Ääni joka kuuluu on Organizationin asentama siru, jonka tarkoitus on viedä pelaaja ulos
+
+
+
+act2 masiinan tuhoaminen ja append
+ 
+ulos pääsy

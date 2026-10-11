@@ -10,7 +10,6 @@ Joku vague kriisi on tapahtunut, mahdollisesti kestävän kehityksen mielessä y
 
 Loppu on aina kuolema. Organizationin suunnittelemana pelaaja on ainut kuka on herännyt, koska hänet halutaan poistaa maan tasalta kenenkään tietämättä. Oikeasti maailma ei ole elinkelpoinen ja pelaaja on ainut kenen uskotaan osaavan pelastaa maailma.
 
-Ääni joka kuuluu on Organizationin asentama siru, jonka tarkoitus on viedä pelaaja ulos
 
 
 

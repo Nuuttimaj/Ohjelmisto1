@@ -28,7 +28,7 @@ def menu():
             print(f'''
         Hei,{user.nimi}!
 
-        Start   Tietosi   Inventaario   Cheat Codes   Load   Shutdown
+        Start   Tiedot   Inventaario   Huijauskoodit   Lataa   Sulje
         >
         ''')
     
@@ -36,7 +36,7 @@ def menu():
             vastaus= str(input("Mihin haluat edetä? ")).lower()
             if vastaus == "start":
                 break
-            if vastaus == "tietosi":
+            if vastaus == "tiedot":
                 time.sleep(0.5)
                 tiedot()
             if vastaus == "inventaario":
@@ -44,16 +44,16 @@ def menu():
                 print("Inventaariosi:")
                 time.sleep(0.5)
                 invi()
-            if vastaus == "cheat codes":
+            if vastaus == "huijauskoodit":
                 time.sleep(0.5)
                 inviadd()
-            if vastaus =="load":
+            if vastaus =="lataa":
                 tallennus_data = save.lataa()
                 user.nimi = tallennus_data["pelaaja"]
                 user.ikä = tallennus_data["ika"]
                 user.hp = tallennus_data["HP"]
 
-            if vastaus == "shutdown":
+            if vastaus == "sulje":
                 time.sleep(1.5)
                 print("Shutdown")
                 quit()
