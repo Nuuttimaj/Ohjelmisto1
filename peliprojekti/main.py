@@ -103,7 +103,7 @@ while True:
         break
 
 
-#Act 3
+#Act 3. Tämä skipataan kokonaan, jos pelaaja ei käynyt latest log kohdassa terminaalissa.
 time.sleep(1)
 if "Latest Log" in vastaukset:
     print(f"{värit.ENDC}{user.nimi}: Now tell me everything")
@@ -123,8 +123,8 @@ if "Latest Log" in vastaukset:
     os.system('say "You have escalated the situation, I need to finish the plan!"')
     time.sleep(1)
 
-#Combat
-combat.combat()
+    #Combat
+    combat.combat()
 
 
 #Act 4
