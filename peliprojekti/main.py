@@ -9,6 +9,7 @@ with open("/Users/nuuttimajoinen/Desktop/Koulu/Ohjelmisto 1/Python-harjoitukset/
 import time
 from pelaaja import user
 import os
+from colours import värit
 
 
 #Main menu
@@ -53,7 +54,7 @@ if act1_staircase == "":
     time.sleep(1)
 print(f"{user.nimi}: What happened, what are those machines?")
 time.sleep(1)
-os.system('say "They are cryochambers. You just woke up from one of them"')
+os.system('say "They are sleep pods. You just woke up from one of them"')
 time.sleep(1)
 print(f"{user.nimi}: What?")
 time.sleep(1)
@@ -81,7 +82,7 @@ os.system('say "I am not authorized to tell you that information."')
 
 
 
-#Terminal
+#Act 2
 time.sleep(1)
 print("You sit down to gather your thoughts")
 time.sleep(1)
@@ -97,41 +98,35 @@ while True:
         print(f"{user.nimi}: Maybe I don't got time for that.")
         break
 
-#Act2
-
-
-
 #Act 3
+
+
+
+#Act 4
 time.sleep(1)
 print(f"{user.nimi}: Another terminal! Let's boot it")
 time.sleep(1)
 import final_terminal
 time.sleep(1)
-print(f"{user.nimi}: That's it. I finally get out!")
+print(f"{värit.ENDC}{user.nimi}: That's it. I finally get out!")
 time.sleep(1)
-out = input("Press enter to exit the safe house!")
+out = input(f"{värit.ENDC}Press enter to exit the safe house!")
 if out == "":
     print("Starting exit sequence")
     time.sleep(1)
     print(".")
     time.sleep(1)
     print(".")
-    print(f"{user.nimi}: What's that?")
-    time.sleep(1)
+    print(f"{user.nimi}: What's happening?")
+    time.sleep(2)
     print(f"{user.nimi}: I can't breathe!")
-    time.sleep(1)
+    time.sleep(2)
     print(f"{user.nimi}: You sons of........")
-    time.sleep(1)
+    time.sleep(2)
     print(".")
     time.sleep(1)
     print(".")
-    time.sleep(1)
+    time.sleep(3)
     os.system('say "The plan has been completed, they are no more the future of mankind"')
+    print("We thank you for playing Safe House 87")
     quit()
-
-    
-    
-
-
-
-
