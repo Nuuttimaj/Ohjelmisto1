@@ -35,7 +35,7 @@ save.json tiedostossa on savedata, tämä sijaitsee peliprojekti kansion ulkopuo
 
 
 **Tallentaminen**
-Tiedot voi tallentaa ensimmäisessä terminaalissa ja ne voi pelin alussa ladata. Pelin käynnistettäessä aukeaa terminaali, jossa pitää tehdä asennus, jos save.json tiedostoa ei ole olemassa tai se on tyhjä. Tämä ei ole tarkoituksen mukaista. En vain saanut korjattua sitä. Toivottavasti muut bonus ominaisuudet antaa yhden pisteen, jotta vitonen tulisi silti.
+Tiedot voi tallentaa ensimmäisessä terminaalissa ja ne voi pelin alussa ladata. Pelin käynnistettäessä aukeaa terminaali, jossa pitää tehdä tallennus, jos save.json tiedostoa ei ole olemassa tai se on tyhjä. Tämä ei ole tarkoituksen mukaista. En vain saanut korjattua sitä. Toivottavasti muut bonus ominaisuudet antaa yhden pisteen, jotta vitonen tulisi silti.
 
 
 **Projektitehtävien lokaatiot**
