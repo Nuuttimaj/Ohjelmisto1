@@ -101,5 +101,37 @@ while True:
 
 
 
-#Final Terminal
+#Act 3
+time.sleep(1)
+print(f"{user.nimi}: Another terminal! Let's boot it")
+time.sleep(1)
 import final_terminal
+time.sleep(1)
+print(f"{user.nimi}: That's it. I finally get out!")
+time.sleep(1)
+out = input("Press enter to exit the safe house!")
+if out == "":
+    print("Starting exit sequence")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    print(f"{user.nimi}: What's that?")
+    time.sleep(1)
+    print(f"{user.nimi}: I can't breathe!")
+    time.sleep(1)
+    print(f"{user.nimi}: You sons of........")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    os.system('say "The plan has been completed, they are no more the future of mankind"')
+    quit()
+
+    
+    
+
+
+
+

@@ -4,4 +4,3 @@
 
 act2 masiinan tuhoaminen ja append
  
-ulos pääsy

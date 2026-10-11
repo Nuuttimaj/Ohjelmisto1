@@ -1,7 +1,6 @@
 import time
 from colours import värit
 from pelaaja import user_name
-import save
 
 
 time.sleep(2)
