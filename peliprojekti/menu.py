@@ -21,10 +21,10 @@ def tiedot():
 
 #Menu funktio
 def menu():
-        if user.ikä < 12:
+        if user.ikä <= 11:
             print("Alitat ikärajan")
             quit()
-        while user.ikä > 12:
+        while user.ikä >= 12:
             time.sleep(1)
             print(f'''
         Hei,{user.nimi}!
@@ -59,5 +59,6 @@ def menu():
                 print("Shutdown")
                 quit()
 
+menu()
 
 
