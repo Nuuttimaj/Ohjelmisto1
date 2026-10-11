@@ -51,7 +51,35 @@ act1_staircase = input("Press enter to continue: ")
 if act1_staircase == "":
     print(f"{user.nimi}: Shakey")
     time.sleep(1)
-print(f"{user.nimi}: What happened")
+print(f"{user.nimi}: What happened, what are those machines?")
+time.sleep(1)
+os.system('say "They are cryochambers. You just woke up from one of them"')
+time.sleep(1)
+print(f"{user.nimi}: What?")
+time.sleep(1)
+os.system('say "Yes. I said you have been sleeping for some time"')
+time.sleep(1)
+print(f"{user.nimi}: What is this behind my ear?")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+os.system('say "I am not authorized to tell you that information."')
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(f"{user.nimi}: What's your name?")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+os.system('say "I am not authorized to tell you that information."')
+
+
 
 #Terminal
 time.sleep(1)
@@ -62,6 +90,13 @@ time.sleep(1)
 print("Suddenly you see a computer")
 time.sleep(1)
 terminal_input=input("Do you want to boot the terminal?")
-if terminal_input =="Yes":
-    import terminal
+while True:
+    if terminal_input == "Yes":
+        import terminal
+    else:
+        print(f"{user.nimi}: Maybe I don't got time for that.")
+        break
+
+#Act2
+
 

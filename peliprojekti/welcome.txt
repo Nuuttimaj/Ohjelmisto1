@@ -1,5 +1,6 @@
-Hei!
+
 
 Tervetuloa pelaamaan Safe House peliä.
-Peliä ei tarvitse alustaa mitenkään.
+Maailmassa on tapahtunut ydinkriisi, jonka takia maailma on elinkelvoton. Kunnes ei enään ole.
+Yritä päästä pois!
 Pidä hauskaa!

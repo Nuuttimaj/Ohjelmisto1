@@ -57,7 +57,7 @@ while True:
         print(f'''{värit.BOLD}{värit.OKGREEN}
         Doctor Collins, Medical Supervisor
 
-        The Plan has started, their wake up time has been set.
+        The Plan has started, their wake up time has been set and "it" has been planted.
 
         We are moving to the safe room to observe and execute the final step of the plan if needed.
 

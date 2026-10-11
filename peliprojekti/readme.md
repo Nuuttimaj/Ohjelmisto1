@@ -2,9 +2,22 @@
 
 **Nuutti Majoinen**
 
+**Pelin idea**
 
-**Tiedostorakenne**
-functions.py tiedostossa on pelin funktiot
+Joku vague kriisi on tapahtunut, mahdollisesti kestävän kehityksen mielessä ydinkriisi. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen.
+
+
+
+Loppu on aina kuolema. Organizationin suunnittelemana pelaaja on ainut kuka on herännyt, koska hänet halutaan poistaa maan tasalta kenenkään tietämättä. Oikeasti maailma ei ole elinkelpoinen ja pelaaja on ainut kenen uskotaan osaavan pelastaa maailma.
+
+Ääni joka kuuluu on Organizationin asentama siru, jonka tarkoitus on viedä pelaaja ulos
+
+
+
+**Tiedostorakenne ja paketit**
+colours.py tiedostossa on värit class
+
+machine.py tiedostossa on machine class
 
 main.py tiedostossa on itse peli
 
@@ -12,8 +25,10 @@ menu.py tiedostossa on menu ja siihen liittyvät funktiot
 
 pelaaja.py tiedostossa on pelaaja class ja siihen liittyvät funktiot
 
-**Intro pelille**
+save.py tiedostossa on muuttujien tallennus ja luku funktiot
 
-Joku vague kriisi on tapahtunut, mahdollisesti ydinkriisi on tapahtunut. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen.
+terminal.py tiedostossa on terminaali kokonaisuudessaan
 
-Loppu on aina kuolema. Organizationin suunnittelemana pelaaja on ainut kuka on herännyt, koska hänet halutaan poistaa maan tasalta kenenkään tietämättä. Oikeasti maailma ei ole elinkelpoinen ja pelaaja on ainut kenen uskotaan osaavan pelastaa maailma.
+welcome.py tiedostossa on tervetuloa teksti
+
+save.json tiedostossa on savedata, tämä sijaitsee peliprojekti kansion ulkopuolella.
