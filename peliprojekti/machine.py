@@ -1,4 +1,4 @@
-
+#Machine eli puhuva ääni class
 class Machine():
     def __init__(self, hp):
         self.hp = hp

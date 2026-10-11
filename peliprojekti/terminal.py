@@ -1,9 +1,13 @@
+#Tarvittavat funktiot
 import time
 from colours import värit
 from pelaaja import user_name
 import save
 
+#Vastaukset lista, josta myöhemmin tarkistetaan mitä pelaaja on klikannut.
+vastaukset = []
 
+#Menu
 time.sleep(2)
 print(f'''{värit.BOLD}{värit.OKGREEN}
         The Organization
@@ -15,6 +19,8 @@ print(f'''{värit.BOLD}{värit.OKGREEN}
         ''')
 
 time.sleep(3)
+
+#Haluatko jatkaa
 while True:
     proceed=input(f'''{värit.BOLD}{värit.OKGREEN}
             Press enter to proceed?
@@ -23,6 +29,7 @@ while True:
     if proceed == "":
         break
 
+#Salasana
 while True:
     password=input(f'''{värit.BOLD}{värit.OKGREEN}
             Password?
@@ -32,7 +39,7 @@ while True:
         break
     print(f"{värit.ENDC}{user_name}: Let's try the usual one, maybe Password1")
 
-
+#Menu
 while True:
     sf_input=input(f'''{värit.BOLD}{värit.OKGREEN}
             Safe house 87
@@ -42,9 +49,10 @@ while True:
             > Exit
 
             Where do you wish to proceed
-            ''')
-
-    if sf_input == "Personnel":
+            ''').lower()
+    
+    #Henkilöstö
+    if sf_input == "personnel":
         time.sleep(1)
         print(f'''{värit.BOLD}{värit.OKGREEN}
         Doctor Collins, Medical supervisor
@@ -52,7 +60,10 @@ while True:
         Classified, Classified
         ''')
         time.sleep(1)
-    if sf_input =="Latest Log":
+
+    #Lokikirjoitus    
+    if sf_input =="latest log":
+        vastaukset.append("Latest Log")
         time.sleep(1)
         print(f'''{värit.BOLD}{värit.OKGREEN}
         Doctor Collins, Medical Supervisor
@@ -61,14 +72,18 @@ while True:
 
         We are moving to the safe room to observe and execute the final step of the plan if needed.
 
-        All hail The Organization 
+        All hail The Organization! 
         ''')
         time.sleep(5)
         print(f"{värit.ENDC}{user_name}: What plan?")
-    if sf_input =="Save current stage":
+
+    #Tallennus    
+    if sf_input =="save current stage":
         save.tallenna()
         print(f"{värit.ENDC}Saved")
-    if sf_input =="Exit":
+
+    #Exit    
+    if sf_input =="exit":
         break
 
 

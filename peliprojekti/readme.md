@@ -6,12 +6,14 @@
 
 **Pelin idea**
 
-Joku vague kriisi on tapahtunut, kestävän kehityksen mielessä ydinkriisi. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen.
+Joku vague kriisi on tapahtunut, kestävän kehityksen mielessä ydinkriisi. The Organization on tehnyt maailmasta taas elinkelpoisen. Pelaajan tavoite on päästä bunkerista ulos ja alkaa rakentaa sivilisaatiota uudelleen. Kaikki onkin oikeasti valetta. The Organization on käynnistänyt suunnitelman, jonka tavoitteena on tuhota pelaaja, koska hänen uskotaan olevan maailman pelastus. The Organization ei siis oikeasti halua pelastaa maailmaa.
 
 
 
 **Tiedostorakenne ja paketit**
 colours.py tiedostossa on värit class.
+
+combat.py tiedostossa on combat yhtenä funktiona.
 
 final_terminal.py tiedostossa on Act 4-terminaali.
 
@@ -25,18 +27,11 @@ pelaaja.py tiedostossa on pelaaja class ja sen metodit.
 
 save.py tiedostossa on muuttujien tallennus ja luku funktiot.
 
-terminal.py tiedostossa on terminaali kokonaisuudessaan.
+terminal.py tiedostossa on ensimmäinen terminaali kokonaisuudessaan.
 
 welcome.py tiedostossa on tervetuloa teksti.
 
 save.json tiedostossa on savedata, tämä sijaitsee peliprojekti kansion ulkopuolella.
-
-
-
-**Mahdolliset reitit**
-Act 2 mahdollisuus avata terminal tai ei.
-Act 3 
-Act 4 kaksi eri reittiä, jotka molemmat loppuu kuolemaan.
 
 
 **Projektitehtävien lokaatiot**
@@ -45,4 +40,7 @@ Projekti 2 - menu.py
 Projekti 3 - menu.py
 Projekti 4 - pelaaja.py, colours.py ja machine.py
 Projekti 5 - welcome.txt ja save.py
+
+**Muuta infoa**
+Kirjainten koolla ei ole väliä, jos pelaajalta kysytään toimintoa, paitsi salasanoissa.
 

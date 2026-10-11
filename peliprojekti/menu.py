@@ -1,5 +1,5 @@
+#Tarvittavat importit
 import time
-
 from pelaaja import inventaario
 from pelaaja import user
 import save
@@ -18,7 +18,7 @@ def tiedot():
     print(f"Ikäsi: {user.ikä}")
     print(f"HP: {user.hp} ")
 
-
+#Menu funktio
 def menu():
         if user.ikä < 12:
             print("Alitat ikärajan")

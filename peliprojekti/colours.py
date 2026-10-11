@@ -1,3 +1,5 @@
+#Pelissä käytettävät fontit. Myöhemmin muodossa värit.xxxxx
+
 class värit:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
