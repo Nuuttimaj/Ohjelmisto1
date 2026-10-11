@@ -1,5 +1,6 @@
 #Tarvittavat importit
 import time
+import pelaaja
 from pelaaja import inventaario
 from pelaaja import user
 import save
@@ -58,6 +59,5 @@ def menu():
                 print("Shutdown")
                 quit()
 
-#Tarvitaan, jotta päävalikko toimii
-menu()
+
 

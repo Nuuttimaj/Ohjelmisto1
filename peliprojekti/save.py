@@ -2,6 +2,7 @@
 import json
 import pelaaja
 
+
 #Tallenna funktio
 def tallenna():
     tallennus_data = {

@@ -17,6 +17,7 @@ import combat
 
 
 
+
 #Main menu
 import menu
 
@@ -129,7 +130,7 @@ if "Latest Log" in vastaukset:
 
 #Act 4
 time.sleep(3)
-print(f"{värit.ENDC}{user.nimi}: What is happening, Why am I the only one awake, and what plan?")
+print(f"{värit.ENDC}{user.nimi}: What is happening, Why am I the only one awake?")
 time.sleep(1)
 print(".")
 time.sleep(1)
