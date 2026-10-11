@@ -7,7 +7,7 @@ class Machine():
         self.hp = self.hp - muutos
         return
 
-masiina = Machine(100)
+masiina = Machine(50)
 
 
 
