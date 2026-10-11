@@ -46,5 +46,6 @@ Projekti 4 - pelaaja.py, colours.py ja machine.py
 Projekti 5 - welcome.txt ja save.py
 
 **Muuta infoa**
-Kirjainten koolla ei ole väliä, jos pelaajalta kysytään toimintoa, paitsi salasanoissa.
+Muista pitää äänet päällä pelin ajan, koska pelissä sinua auttaa robotti "The machine", jonka äänen kuulet.
+Myöskään kirjainten koolla ei ole peliä pelattaessa väliä, paitsi salasanoissa.
 
